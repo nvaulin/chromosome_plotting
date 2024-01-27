@@ -198,9 +198,5 @@ class Chromosome():
             ax.set_axis_off()
             
         if show_name:
-            ax.set_title(f'Chromosome {self.name}')     
-
-    @staticmethod
-    def parse_chromsizes():
-        pass
-        
+            ax.set_title(f'Chromosome {self.name}')
+    return ax
