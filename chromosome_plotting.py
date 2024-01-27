@@ -199,4 +199,3 @@ class Chromosome():
             
         if show_name:
             ax.set_title(f'Chromosome {self.name}')
-    return ax
